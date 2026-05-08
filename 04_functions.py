@@ -68,6 +68,14 @@ def add_numbers(a, b):
 result = add_numbers(5, 7)
 print(f"The sum is: {result}")
 
+#Let's have one more example
+def remainder(x, y):
+    return x % y
+
+# Now let's try it out
+rem = remainder(56, 17)
+print("The remainder of this division is: ", {rem})    
+
 # 2. Scope and Arguments
 # Variables can have global or local scope
 
