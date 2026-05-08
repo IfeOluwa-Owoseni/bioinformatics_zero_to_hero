@@ -25,6 +25,7 @@ print(f"Height: {height}, Type: {type(height)}")
 first_name = "Bianca"  # A string representing a first name
 last_name = "Rodriguez"  # A string representing a last name
 # Concatenating strings to form a full name
+# note that the use of the '+' operator is not the best method for string concatenation
 full_name = first_name + " " + last_name
 print(f"Full Name: {full_name}")
 
@@ -43,12 +44,14 @@ student = {
     "name": "Alex Chen",  # Key: 'name', Value: 'Alex Chen'
     "major": "Bioinformatics",  # Key: 'major', Value: 'Bioinformatics'
     "gpa": 3.8,  # Key: 'gpa', Value: 3.8
+    "student_id": 993484,
 }
 print(f"Student Info: {student}")
 
 # 4. Type Conversion
 # Converting data types using built-in functions
-str_number = "42"  # A string representation of a number
+str_number = "42"  
+print(type(str_number)) #check data type before converting
 # Converting string to integer
 int_number = int(str_number)
 # Converting string to float
