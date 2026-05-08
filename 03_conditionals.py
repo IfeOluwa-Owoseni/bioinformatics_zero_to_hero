@@ -32,6 +32,12 @@ if "A" in dna_sequence:
 else:
     print("The sequence does not contain Adenine (A).")
 
+#example 2
+if "T" in dna_sequence:
+    print("The sequence contains Thymine.")
+else:
+    print("Thymie is absent from the sequence.")
+
 # Identifying if a sequence contains invalid characters
 valid_bases = {"A", "T", "C", "G"}
 invalid_bases = set(dna_sequence) - valid_bases
